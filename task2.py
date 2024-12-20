@@ -22,4 +22,13 @@ Enter a name: Lebron
 That name is on the list
 """
 
-nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+Babygronk = ("Lebron","Kobe","Michale","Shaq","Dennis")
+
+santaclaus = input("Enter a name => ")
+
+for fried in Babygronk:
+    if fried == santaclaus:
+        print("HE IS THE BEEEST")
+        exit()
+
+print("HE IS NOT ON THE LIST")

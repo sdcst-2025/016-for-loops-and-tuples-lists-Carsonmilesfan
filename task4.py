@@ -8,3 +8,7 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+robbee = int(input("enter a number from 1 to 12 => "))
+robber = robbee - 1
+print(f" The person in position {robbee} is {people[robber]}")
